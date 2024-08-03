@@ -10,7 +10,7 @@ import com.report.entity.CitizenPlan;
 
 public interface CitizenPlanRepository extends JpaRepository<CitizenPlan, Serializable>{
 	
-	@Query("select distinct(planName) from CitizenPlan")
+	@Query("select distinct(plan) from CitizenPlan")
 	public List<CitizenPlan> getPlanNames();
 	
 	@Query("select distinct(planStatus) from CitizenPlan")
