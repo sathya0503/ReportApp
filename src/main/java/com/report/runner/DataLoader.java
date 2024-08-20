@@ -1,7 +1,6 @@
 package com.report.runner;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -34,7 +33,7 @@ public class DataLoader implements ApplicationRunner{
 		CitizenPlan c2 = new CitizenPlan();
 		c2.setCitizenName("Miler");
 		c2.setGender("Male");
-		c2.setPlanName("Cash");
+		c2.setPlanName("Online");
 		c2.setPlanStatus("Denied");
 		c2.setDenialReason("Property not satisfies");
 		

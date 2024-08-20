@@ -2,9 +2,12 @@ package com.report.request;
 
 import java.time.LocalDate;
 
+import org.springframework.stereotype.Service;
+
 import lombok.Data;
 
 @Data
+@Service
 public class SearchRequest {
 	
 	private String planName;
@@ -13,9 +16,9 @@ public class SearchRequest {
 	
 	private String gender;
 	
-	private LocalDate planStartDate;
+	private String planStartDate;
 	
-	private LocalDate planEndDate;
+	private String planEndDate;
 	
 
 }
