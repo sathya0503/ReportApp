@@ -7,9 +7,9 @@ import com.report.request.SearchRequest;
 
 public interface ReportService {
 	
-	public List<CitizenPlan> getPlanNames();
+	public List<String> getPlanNames();
 	
-	public List<CitizenPlan> getPlanStatuses();
+	public List<String> getPlanStatuses();
 	
 	public List<CitizenPlan> search(SearchRequest request);
 	
